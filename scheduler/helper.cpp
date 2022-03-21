@@ -3,6 +3,8 @@
 #include <deque>
 #include <fstream>
 #include <iostream>
+#include <cstdlib>
+#include <string.h>
 #include "header.h"
 using namespace std;
 
@@ -401,6 +403,7 @@ PRIO::~PRIO() {         // to free the active and expired queues
         delete expired_queue[i];
     }
 }
+
 
 // PREPRIO
 // ===============================================================
