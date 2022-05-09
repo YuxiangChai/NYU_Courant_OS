@@ -7,4 +7,4 @@ Prof. Hubertus Franke. NYU Courant OS.
 - linker: 100
 - scheduler: 95.18
 - mmu: 100
-- ioscheduler: 
+- ioscheduler: 100
